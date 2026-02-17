@@ -4,7 +4,7 @@
 
 **Prompt library for Claude Code**
 
-Save, organize, version, share and reuse prompts — from [prmpt.space](https://prmpt.space) or your own server.
+Save, organize, version, share and reuse prompts — from [prmpt.space](https://prmpt.space)
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude_Code-plugin-D97706)](https://claude.ai)
