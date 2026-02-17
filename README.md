@@ -152,17 +152,6 @@ Auth: session cookie (browser) or `?token=YOUR_TOKEN` (CLI/API).
 | `POST` | `/api/teams/[id]/invitations` | Create invite link |
 | `POST` | `/api/invitations/[token]/accept` | Accept invitation |
 
-### Auth
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/auth/register` | Register new user |
-| `POST` | `/api/auth/link` | Create pairing code (for CLI) |
-| `GET` | `/api/auth/link?code=...` | Poll pairing status |
-| `GET` | `/api/auth/token` | Get API token |
-| `POST` | `/api/auth/token` | Regenerate API token |
-| `GET` | `/api/health` | Health check |
-
 ---
 
 ## MCP Server
