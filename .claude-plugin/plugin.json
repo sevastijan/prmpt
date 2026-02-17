@@ -1,0 +1,11 @@
+{
+  "name": "prmpt",
+  "version": "1.0.0",
+  "description": "Online prompt library for Claude Code. Browse, search and use saved prompts from your self-hosted server.",
+  "author": {
+    "name": "Sebastian Sleczka"
+  },
+  "repository": "https://github.com/sevastijan/prmpt",
+  "homepage": "https://prmpt.space",
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+{
+  "prompts": [
+    {
+      "id": "code-review",
+      "name": "Code Review",
+      "category": "coding",
+      "description": "Thorough code review with security and performance focus",
+      "content": "Review the following code for:\n1. Security vulnerabilities (OWASP Top 10)\n2. Performance bottlenecks\n3. Error handling gaps\n4. Code style and best practices\n\nProvide specific suggestions with code examples for each issue found."
+    },
+    {
+      "id": "refactor",
+      "name": "Refactor",
+      "category": "coding",
+      "description": "Clean refactor for readability and maintainability",
+      "content": "Refactor this code for better readability and maintainability:\n- Extract repeated logic into functions\n- Improve naming\n- Simplify complex conditions\n- Add types where missing\n\nKeep the same behavior, just improve the structure."
+    },
+    {
+      "id": "write-tests",
+      "name": "Write Tests",
+      "category": "testing",
+      "description": "Generate comprehensive test suite",
+      "content": "Write comprehensive tests for this code:\n- Unit tests for each function/method\n- Edge cases and error scenarios\n- Mock external dependencies\n- Use descriptive test names\n\nUse the testing framework already in use in this project."
+    },
+    {
+      "id": "explain",
+      "name": "Explain Code",
+      "category": "learning",
+      "description": "Detailed explanation of how code works",
+      "content": "Explain this code in detail:\n1. What does it do (high-level purpose)?\n2. Step-by-step walkthrough of the logic\n3. Key patterns/algorithms used\n4. Potential gotchas or edge cases\n\nUse simple language, assume I'm learning."
+    },
+    {
+      "id": "debug",
+      "name": "Debug Issue",
+      "category": "coding",
+      "description": "Systematic debugging of a problem",
+      "content": "Help me debug this issue:\n1. Analyze the error/symptoms\n2. Identify possible root causes\n3. Suggest diagnostic steps\n4. Propose fixes with explanations\n\nStart by asking me what the expected vs actual behavior is."
+    }
+  ]
+}
