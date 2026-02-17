@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "prmpt",
-      "source": ".",
+      "source": "./",
       "description": "Online prompt library for Claude Code. Browse, search and use saved prompts from your self-hosted server.",
       "version": "1.0.0"
     }
