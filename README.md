@@ -22,14 +22,14 @@ Save, organize, version, share and reuse prompts — from [prmpt.space](https://
 ## How it works
 
 ```
- You (Claude Code)          prmpt server           Browser UI
- ┌──────────────┐      ┌──────────────────┐    ┌──────────────┐
- │ /prmpt:init  │─────▶│  Pairing code    │◀───│  Authorize   │
- │              │◀─────│  Token issued     │    │              │
- │ /prmpt:browse│─────▶│  GET /api/prompts │    │  Manage      │
- │              │◀─────│  Prompt content   │    │  prompts     │
- │ Execute      │      │                  │    │              │
- └──────────────┘      └──────────────────┘    └──────────────┘
+  You (Claude Code)           prmpt server            Browser UI
+ ┌────────────────┐      ┌────────────────────┐    ┌──────────────┐
+ │  /prmpt:init   │─────▶│  Pairing code      │◀───│  Authorize   │
+ │                │◀─────│  Token issued      │    │              │
+ │  /prmpt:browse │─────▶│  GET /api/prompts  │    │  Manage      │
+ │                │◀─────│  Prompt content    │    │  prompts     │
+ │  Execute       │      │                    │    │              │
+ └────────────────┘      └────────────────────┘    └──────────────┘
 ```
 
 Write prompts in the browser. Use them from the CLI. Share with your team.
